@@ -1,0 +1,12 @@
+.header {
+    background-color: indigo;
+    color: white;
+    font-size: x-large;
+    padding: 0.3rem;
+}
+
+.header i {
+    position: absolute;
+    top: 1rem;
+    right: 0.5rem;
+}
