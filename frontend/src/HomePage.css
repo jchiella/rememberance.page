@@ -1,0 +1,52 @@
+.homepage {
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.blurb {
+  width: 50vw;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.btn {
+  background-color: indigo;
+  color: white;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 0.7rem 1.2rem;
+  font-size: x-large;
+  border-radius: 0.3rem;
+}
+
+.btn:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 0.5rem;
+  font-size: larger;
+  font-family: 'Roboto', 'sans-serif';
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  border: solid 2px gray;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  font-family: 'Roboto', 'sans-serif';
+}

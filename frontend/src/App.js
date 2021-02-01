@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 
 import Page from './Page';
+import HomePage from './HomePage';
 
 export default function App() {
   return (
@@ -12,6 +13,9 @@ export default function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/:pageId" children={<Page />} />
+          <Route path="/">
+            <HomePage />
+          </Route>
         </Switch>
       </BrowserRouter>
     </main>
